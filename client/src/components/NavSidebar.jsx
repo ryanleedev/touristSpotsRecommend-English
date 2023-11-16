@@ -115,7 +115,7 @@ export const NavSidebar = (props) => {
     if (areaCode in [0,1,2,3,4,5,6,7,8,9,10,11]){
       getUseApi();
       props.setSearch(true);
-      setTitle(month+"월 "+day+"일 추천 관광지")
+      setTitle(year+"-"+month+"-"+day+" Recommended spots")
     } else {
       alert("Select Region please!");
     }
