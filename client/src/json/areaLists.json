@@ -1,50 +1,50 @@
 [
     {
      "areaCode": 0,
-     "area": "남원읍"
+     "area": "Namwon-eup"
     },
     {
      "areaCode": 1,
-     "area": "대정읍"
+     "area": "Daejeong-eup"
     },
     {
      "areaCode": 2,
-     "area": "성산읍"
+     "area": "Seongsan-eup"
     },
     {
      "areaCode": 3,
-     "area": "안덕면"
+     "area": "Andeok-myeon"
     },
     {
      "areaCode": 4,
-     "area": "표선면"
+     "area": "Pyoseon-myeon"
     },
     {
      "areaCode": 5,
-     "area": "서귀포 시내"
+     "area": "Seogwipo downtown"
     },
     {
      "areaCode": 6,
-     "area": "구좌읍"
+     "area": "Gujwa-eup"
     },
     {
      "areaCode": 7,
-     "area": "애월읍"
+     "area": "Aewol-eup"
     },
     {
      "areaCode": 8,
-     "area": "조천읍"
+     "area": "Jocheon-eup"
     },
     {
      "areaCode": 9,
-     "area": "한경면"
+     "area": "Hangyeong-myeon"
     },
     {
      "areaCode": 10,
-     "area": "한림읍"
+     "area": "Hallim-eup"
     },
     {
      "areaCode": 11,
-     "area": "제주 시내"
+     "area": "Downtown Jeju"
     }
    ]
