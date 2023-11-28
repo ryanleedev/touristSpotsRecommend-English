@@ -43,10 +43,10 @@ const schedule = require('node-schedule');
 
 
 // Execute batch at 6am/6pm!!
-const i = schedule.scheduleJob("10 17 06,20 * * *", function() {
+const i = schedule.scheduleJob("10 11 10,21 * * *", function() {
     patchD.process.patch();
   });
-const j = schedule.scheduleJob("50 17 06,20 * * *", function() {
+const j = schedule.scheduleJob("50 12 10,21 * * *", function() {
     patchD.process.patchQuery();
   });
 

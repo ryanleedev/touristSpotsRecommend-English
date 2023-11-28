@@ -76,7 +76,7 @@ def exit():
     print("function exit") 
     sys.exit()
 
-time.sleep(15)
+time.sleep(30)
 test_function()
 time.sleep(5)
 exit()

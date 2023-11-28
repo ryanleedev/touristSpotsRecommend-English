@@ -29,7 +29,7 @@ export const NavSidebar = (props) => {
   const selectDate =
   year + '-' + ('00' + month.toString()).slice(-2) + '-' + ('00' + day.toString()).slice(-2);
 
-  const minDate = new Date(new Date().setDate(new Date().getDate()));
+  const minDate = new Date(new Date().setDate(new Date().getDate() - 1));
   const maxDate = new Date(new Date().setDate(new Date().getDate() + 10));
 
 
@@ -75,7 +75,7 @@ export const NavSidebar = (props) => {
         // url:'https://lazyoff-psgja2.run.goorm.io/', 
         url:'http://localhost:5000/',
         params:{
-        area:areaCode, 
+        area:areaCode,
         date:selectDate
         }
       })
