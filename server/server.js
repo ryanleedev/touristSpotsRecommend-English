@@ -8,10 +8,11 @@ const mysql = require('mysql');
 const cors = require('cors');
 const db_config = require('./db_config.json')
 
+
 var url = require('url');
 
 //DB
-const db= mysql.createConnection({
+const db= mysql.createPool({
     host : db_config.host,
     user : db_config.user,
     password : db_config.password,
@@ -43,10 +44,10 @@ const schedule = require('node-schedule');
 
 
 // Execute batch at 6am/6pm!!
-const i = schedule.scheduleJob("10 11 10,21 * * *", function() {
+const i = schedule.scheduleJob("10 14 10,21 * * *", function() {
     patchD.process.patch();
   });
-const j = schedule.scheduleJob("50 12 10,21 * * *", function() {
+const j = schedule.scheduleJob("50 15 10,21 * * *", function() {
     patchD.process.patchQuery();
   });
 
