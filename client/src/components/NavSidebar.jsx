@@ -9,6 +9,7 @@ import Dropdown from "./Dropdown";
 import '../styles/Dropdown.css'
 import axios from "axios";
 import '../styles/main.css'
+import '../styles/layout.css'
 import reactStringReplace from 'react-string-replace'
 
 
@@ -140,16 +141,14 @@ export const NavSidebar = (props) => {
           {/* <div  */}
           
           <div style={{display:"flex"}}>
-          <div className="" style={{width:"120px",height:"100%", padding:"20px 0px 0px 0px"}}> 
+          <div id="logo" className="logo"> 
 
             <img src={`/logoCut.jpg`} onClick={()=>(window.location.href="/")}></img>
-          {/* google translate button */}
-          <div id="google_translate_element"></div>
           </div>
           
 
           <div style={{padding:"0px 0px 0px 0px"}}>
-            <div id='select' style={{width:"268px", fontSize:"25px"}}>
+            <div id='select' style={{width:"21vw", fontSize:"25px"}}>
               <div id='calendar'>
                 <div style={{border:"1px solid #E0E0E0", borderRadius:"10px", padding:"2px 10px 2px 10px" }} onClick={e => setDropdownVisibility(!dropdownVisibility)}>
                   📆 Date &nbsp; {year + '-' + month + '-' + day}

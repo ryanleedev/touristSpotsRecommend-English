@@ -62,7 +62,7 @@ export const Layout = () => {
       <div
           // style={{justifyContent: "center"}}
          //style={{backgroundColor: "#FFE0B2"}}
-        className="flex bg-white p-2">
+        className="bg-white p-2" class="layoutflex">
         <div>
         <NavSidebar 
           setSelectDate={setSelectDate} 
