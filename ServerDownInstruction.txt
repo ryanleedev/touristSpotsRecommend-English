@@ -1,0 +1,11 @@
+env - python 3.10 / xgboost 1.6.1
+
+kakao map register the site form kakao api map
+
+service mysql restart
+
+db_config.js modify Export port, Server ip address.
+
+GRANT ALL PRIVILEGES ON *.* TO root@3.79.95.73 IDENTIFIED BY 'mysql' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+'3.79.95.73' - depends on your server ip address.
