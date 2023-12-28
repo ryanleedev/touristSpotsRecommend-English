@@ -9,3 +9,5 @@ db_config.js modify Export port, Server ip address.
 GRANT ALL PRIVILEGES ON *.* TO root@3.79.95.73 IDENTIFIED BY 'mysql' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 '3.79.95.73' - depends on your server ip address.
+
+nohup npm run dev &
