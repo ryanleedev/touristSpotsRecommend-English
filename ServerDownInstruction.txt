@@ -11,3 +11,4 @@ FLUSH PRIVILEGES;
 '3.79.95.73' - depends on your server ip address.
 
 nohup npm run dev &
+exit
