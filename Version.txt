@@ -1,0 +1,2 @@
+python 3.8.0
+mysql Ver 14.14 Distrib 5.7.42, for linux

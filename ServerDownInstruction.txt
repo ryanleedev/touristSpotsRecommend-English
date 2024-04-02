@@ -6,9 +6,16 @@ service mysql restart
 
 db_config.js modify Export port, Server ip address.
 
-GRANT ALL PRIVILEGES ON *.* TO root@3.79.95.73 IDENTIFIED BY 'mysql' WITH GRANT OPTION;
+sudo mysql -u root -p mysql
+
+mysql> CREATE USER 'root'@'140.238.131.59' IDENTIFIED BY 'PASSWORD';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'140.238.131.59' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+'140.238.131.59' - depends on your server ip address.
+
+ALTER USER 'root'@'140.238.131.59' IDENTIFIED BY '8970';
+ALTER USER 'root'@'140.238.131.59' IDENTIFIED WITH mysql_native_password BY '8970';
 FLUSH PRIVILEGES;
-'3.79.95.73' - depends on your server ip address.
 
 nohup npm run dev &
 exit
